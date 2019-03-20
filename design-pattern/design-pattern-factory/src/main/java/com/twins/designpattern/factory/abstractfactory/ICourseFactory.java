@@ -1,6 +1,8 @@
 package com.twins.designpattern.factory.abstractfactory;
 
 import com.twins.designpattern.factory.ICourse;
+import com.twins.designpattern.factory.INote;
+import com.twins.designpattern.factory.IVideo;
 
 /**
  * Created on 2019/3/7

@@ -1,21 +1,21 @@
 package com.twins.designpattern.factory.abstractfactory;
 
-import com.twins.designpattern.factory.ICourse;
+import com.twins.designpattern.factory.*;
 
 /**
  * Created on 2019/3/20
  */
-public class PythonFactory implements ICourseFactory {
+public class PythonCourseFactory implements ICourseFactory {
 
     public ICourse createCourse() {
-        return null;
+        return new PythonCourse();
     }
 
     public INote createNote() {
-        return null;
+        return new PythonNote();
     }
 
     public IVideo createVideo() {
-        return null;
+        return new PythonVideo();
     }
 }
