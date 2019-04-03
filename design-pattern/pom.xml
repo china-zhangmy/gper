@@ -10,6 +10,7 @@
     <modules>
         <module>design-pattern-factory</module>
         <module>design-pattern-singleton</module>
+        <module>design-pattern-prototype</module>
     </modules>
     <packaging>pom</packaging>
 
